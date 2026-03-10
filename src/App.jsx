@@ -27,6 +27,8 @@ function App() {
       <button onClick={addTask} style={{ marginLeft: "10px", padding: "10px" }}>
         Add Task
       </button>
+      <button>Clear Tasks</button>
+      <button>Export Tasks</button>
 
       <ul style={{ marginTop: "30px" }}>
         {tasks.map((t, index) => (
